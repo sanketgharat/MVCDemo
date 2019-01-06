@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MVC Demo</string>
+
+    <string name="P_Id">Id: %1$s</string>
+    <string name="P_Album">Album: %1$s</string>
+
+    <string name="no_internet">No internet connection!</string>
+
+    <string-array name="sortBy_array">
+        <item>albumId</item>
+        <item>title</item>
+    </string-array>
+    <string-array name="orderBy_array">
+        <item>asc</item>
+        <item>desc</item>
+    </string-array>
+    <string name="title_activity_create_post">CreatePost</string>
+    <string name="sort_by">Sort By</string>
+    <string name="order">Order</string>
+    <string name="id">Id</string>
+    <string name="albumid">AlbumId</string>
+    <string name="title">Title</string>
+</resources>
