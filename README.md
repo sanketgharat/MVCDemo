@@ -1,3 +1,3 @@
 # MVCDemo
 
-My firsy MVC project for learning.
+My firsy project to learn MVC.
