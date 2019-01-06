@@ -18,6 +18,7 @@
     <string name="sort_by">Sort By</string>
     <string name="order">Order</string>
     <string name="id">Id</string>
-    <string name="albumid">AlbumId</string>
+    <string name="album_id">AlbumId</string>
     <string name="title">Title</string>
+    <string name="image">image</string>
 </resources>

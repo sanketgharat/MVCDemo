@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    >
+    android:layout_height="wrap_content">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -17,47 +14,48 @@
             android:id="@+id/imageViewPhoto"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="#f2f2f2"
             android:scaleType="centerCrop"
+            android:src="#f2f2f2"
+            android:contentDescription="@string/image"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <TextView
             android:id="@+id/textViewId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/id"
-            app:layout_constraintStart_toEndOf="@id/imageViewPhoto"
-            app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
-            android:textSize="12sp"/>
+            android:text="@string/id"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/imageViewPhoto"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textViewAlbumId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/albumid"
-            app:layout_constraintStart_toEndOf="@id/imageViewPhoto"
-            app:layout_constraintTop_toBottomOf="@+id/textViewId"
-            android:layout_marginTop="1dp"
             android:layout_marginStart="10dp"
-            android:textSize="12sp"/>
+            android:layout_marginTop="1dp"
+            android:text="@string/album_id"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/imageViewPhoto"
+            app:layout_constraintTop_toBottomOf="@+id/textViewId" />
 
         <TextView
             android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title"
-            app:layout_constraintStart_toEndOf="@id/imageViewPhoto"
-            app:layout_constraintTop_toBottomOf="@id/textViewAlbumId"
-            android:layout_marginTop="5dp"
             android:layout_marginStart="10dp"
-            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:maxLines="2"
+            android:text="@string/title"
             android:textSize="12sp"
-            android:maxLines="2"/>
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imageViewPhoto"
+            app:layout_constraintTop_toBottomOf="@id/textViewAlbumId" />
 
 
     </android.support.constraint.ConstraintLayout>
