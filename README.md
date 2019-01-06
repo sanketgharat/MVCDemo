@@ -1,3 +1,3 @@
 # MVCDemo
 
-My firsy project to learn MVC.
+My first project to learn MVC.
