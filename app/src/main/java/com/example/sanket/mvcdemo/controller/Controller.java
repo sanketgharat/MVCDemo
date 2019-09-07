@@ -15,8 +15,8 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class Controller {
-    PhotoFetchListener photoFetchListener;
-    public static final String TAG = Controller.class.getSimpleName()+"Tag";
+    private PhotoFetchListener photoFetchListener;
+    private static final String TAG = Controller.class.getSimpleName()+"Tag";
 
     public Controller(PhotoFetchListener photoFetchListener) {
         this.photoFetchListener = photoFetchListener;

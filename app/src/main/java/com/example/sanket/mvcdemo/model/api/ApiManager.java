@@ -7,10 +7,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiManager {
 
-    public static Retrofit retrofit = null;
-    public static ApiInterface apiInterface = null;
+    private static Retrofit retrofit = null;
+    private static ApiInterface apiInterface = null;
 
-    public static Retrofit getRetrofitInstance(){
+    private static Retrofit getRetrofitInstance(){
         if (retrofit!=null){
             return retrofit;
         }else{
